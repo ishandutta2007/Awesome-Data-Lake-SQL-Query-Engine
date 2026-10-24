@@ -1,51 +1,56 @@
-# Awesome-Data-Lake-SQL-Query-Engine
-# Awesome-Data-Lake-SQL-Query-Engine
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Data Lake SQL Query Engines" width="100%">
+</p>
 
-## Top Data Lake SQL Query Engine
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine?style=flat-square&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine?style=flat-square&color=red" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+# 🚀 Awesome Data Lake SQL Query Engines
 
+> 🌟 **A Curated Directory of Distributed SQL Engines, Lakehouse Platforms, Cloud Data Warehouses, and Federated Analytics Architectures**
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine/pulls)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine/graphs/commit-activity)
 
-*Focused on SQL Query Engines for Data Lakes, Lakehouses, Federated Analytics & Interactive Querying*
+**Last updated: October 2026** 📅
 
+This open-source catalog explores state-of-the-art **SaaS platforms** and **open-source SQL query engines** purpose-built for data lakes, lakehouses (Apache Iceberg, Delta Lake, Apache Hudi), and federated analytics. These technologies empower data engineers, platform architects, and analysts to run blazing-fast interactive and batch SQL queries directly against distributed object storage (Amazon S3, Google Cloud Storage, Azure Data Lake Storage / OneLake, MinIO) without redundant ETL or data warehouse lock-in.
 
+---
 
-**Last updated: October 2026**
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Guidance & Stack Selection](#️-architectural-guidance--stack-selection)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
+- [📜 Disclaimer](#-disclaimer)
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Data Lake SQL Query Engines**. These products enable analysts and engineers to run interactive and batch SQL queries directly on data lakes and lakehouses (object storage + open table formats) without always moving data into a traditional warehouse.
+## 📊 Sector Overview & Market Dynamics
 
+The global data lake and cloud data warehouse market is estimated at **$30B–$38B in 2024–2025**, expanding at a rapid 17%–25% CAGR driven by generative AI workloads, vector extensions, and open table formats (Apache Iceberg, Delta Lake). 
 
+The market is **moderately to highly concentrated** at the infrastructure layer—where cloud hyperscalers (AWS, Microsoft Azure, Google Cloud) and unified commercial platforms (Databricks, Snowflake) capture nearly 70% of enterprise analytics budgets. Conversely, the query layer maintains a vibrant, fragmented open-source ecosystem (Trino, DuckDB, Presto, DataFusion, ClickHouse) that empowers organizations to prevent proprietary vendor lock-in and decouple compute from storage.
 
-**Examples** include Adobe Experience Platform Query Service, Databricks SQL, Snowflake, Google BigQuery, Amazon Athena, Starburst Galaxy, Dremio Cloud, Trino, AWS Redshift Spectrum, and Cloudera Data Warehouse (the category leaders).
+---
 
+## ☁️ SaaS & Hosted Platforms
 
+Enterprise-grade managed query engines, serverless lakehouse SQL platforms, and cloud data warehouses sorted by company valuation/revenue:
 
-**Open-source emphasis**: Data lake query engines have a mature and powerful open-source ecosystem. **Trino**, **Apache Spark SQL**, **Presto**, **DuckDB**, **ClickHouse**, **Apache Impala**, and related projects deliver high-performance, federated, and fully self-hostable SQL analytics. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global data lake and cloud data warehouse market is estimated at **$30B–$38B in 2024–2025**, expanding at a rapid 17%–25% CAGR driven by AI workloads and open table formats (Apache Iceberg, Delta Lake). The market is **moderately to highly concentrated** at the infrastructure layer—where hyperscalers (AWS, Microsoft, Google Cloud) and unified data platforms (Databricks, Snowflake) capture nearly 70% of enterprise spend—yet maintains a vibrant, fragmented open-source and federated query engine ecosystem (Trino, DuckDB, Presto, Dremio) preventing total lock-in.
-
-## SaaS/Hosted Platforms
-
-| Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Free Trial Limits | Description |
+| Product | 🏢 Valuation / Revenue | 💰 Pricing (Starting Tier) | 🎁 Free Tier / Free Trial Limits | 📝 Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Microsoft Fabric / Synapse SQL](https://www.microsoft.com/en-us/microsoft-fabric)** | Microsoft: ~$3.1T Market Cap / ~$245B Ann. Rev. | Starts at ~$0.36/hour (Pay-As-You-Go F2 Capacity SKU with 2 CUs; ~$0.18/CU-hour) | **60-day free trial** with F64 capacity equivalence, 1 TB OneLake storage, subject to standard 24h capacity smoothing/throttling | Unified analytics platform with serverless and dedicated SQL endpoints for querying lakehouse data stored in OneLake. |
 | **[Google BigQuery](https://cloud.google.com/bigquery)** | Alphabet: ~$2.1T Market Cap / ~$350B Ann. Rev. | Starts at $6.25 per TB scanned (On-Demand) or compute capacity editions from ~$0.04/slot-hour | **Free tier forever**: 1 TB of query data scanned per month and 10 GB of active storage free; plus $300 credit 90-day GCP trial | Fully serverless, highly scalable data warehouse with BigLake and external table capabilities for querying data lakes on Google Cloud Storage. |
@@ -58,130 +63,96 @@ The global data lake and cloud data warehouse market is estimated at **$30B–$3
 | **[Starburst Galaxy](https://www.starburst.io/platform/starburst-galaxy/)** | ~$3.35B Private Valuation / ~$100M+ ARR | Starts at $0.50 per Starburst credit (Pro Tier); Enterprise starting at $0.75 per credit | **Free tier forever** limited to up to 3 active free clusters; also includes **30-day Enterprise trial with $500 in compute credits** | Fully managed Trino service offering fast, federated SQL across data lakes, warehouses, and operational databases with enterprise governance. |
 | **[Dremio Cloud](https://www.dremio.com/)** | ~$2.0B Private Valuation / ~$50M+ ARR | Starts at $0.20 per DCU (Dremio Compute Unit) running pay-as-you-go | **Free tier forever (Standard Edition)**: Up to 10 users, Small engine capacity limit, and ~200 cataloged tables; self-hosted community edition free | Lakehouse platform focused on self-service SQL analytics, semantic layers, and high-performance querying of data lakes and open formats. |
 
+---
 
-## Open-Source GitHub Projects
+## ⚡ Open-Source GitHub Projects
 
-- **[Trino](https://github.com/trinodb/trino)**  
+Leading open-source distributed SQL query engines, MPP columnar databases, and analytical runtimes for data lakes and lakehouses, sorted by GitHub stargazers:
 
-  Leading open-source distributed SQL query engine (formerly PrestoSQL). Excellent for interactive, federated queries across data lakes, warehouses, and many other sources. Apache 2.0.
+1. **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)  
+   High-performance open-source columnar OLAP database management system that allows real-time analytical reporting using SQL, featuring native support for reading and writing Parquet, Iceberg, and S3 data lakes.
 
+2. **[Apache Spark SQL](https://github.com/apache/spark)** [![Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)  
+   Unified engine for large-scale distributed data processing and ETL. Spark SQL provides cost-based optimization (Catalyst), code generation (Tungsten), and native connectors for Delta Lake, Iceberg, and Hudi.
 
+3. **[DuckDB](https://github.com/duckdb/duckdb)** [![Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)  
+   In-process analytical SQL database management system (the "SQLite for Analytics"). Ultra-fast vectorized query execution engine designed for local analytics, embedded pipelines, and querying remote Parquet and Iceberg files.
 
-- **[Apache Spark SQL](https://github.com/apache/spark)**  
+4. **[Presto](https://github.com/prestodb/presto)** [![Stars](https://img.shields.io/github/stars/prestodb/presto?style=social&color=white)](https://github.com/prestodb/presto/stargazers)  
+   The original open-source distributed SQL query engine developed at Meta, maintained by the Presto Foundation under the Linux Foundation. Built for interactive analytical queries against petabyte-scale data lakes.
 
-  Powerful SQL interface on top of Apache Spark. Ideal for large-scale batch analytics, ETL, and machine learning pipelines on data lakes and lakehouses.
+5. **[Apache Doris](https://github.com/apache/doris)** [![Stars](https://img.shields.io/github/stars/apache/doris?style=social&color=white)](https://github.com/apache/doris/stargazers)  
+   High-performance, real-time analytical database based on MPP architecture. Provides sub-second queries, materialized views, vector search, and seamless external querying of Hive, Iceberg, and Hudi tables.
 
+6. **[Trino](https://github.com/trinodb/trino)** [![Stars](https://img.shields.io/github/stars/trinodb/trino?style=social&color=white)](https://github.com/trinodb/trino/stargazers)  
+   Fast distributed SQL query engine for big data analytics (formerly PrestoSQL). Renowned for federated SQL across heterogeneous data sources, object stores, and modern lakehouse formats (Iceberg, Delta Lake).
 
+7. **[StarRocks](https://github.com/StarRocks/starrocks)** [![Stars](https://img.shields.io/github/stars/StarRocks/starrocks?style=social&color=white)](https://github.com/StarRocks/starrocks/stargazers)  
+   Next-generation sub-second MPP analytical engine with a fully vectorized execution core and cost-based optimizer, delivering high-speed data lake analytics and real-time materialized views directly on open formats.
 
-- **[Presto](https://github.com/prestodb/presto)**  
+8. **[Apache DataFusion](https://github.com/apache/datafusion)** [![Stars](https://img.shields.io/github/stars/apache/datafusion?style=social&color=white)](https://github.com/apache/datafusion/stargazers)  
+   Extensible, blazingly fast in-memory query engine written in Rust using Apache Arrow format. Widely used as the foundational modular engine for building custom distributed SQL and data lake platforms.
 
-  Original distributed SQL query engine designed for interactive analytics on large datasets. Still actively maintained under the Presto Foundation / Linux Foundation.
+9. **[Apache Hive](https://github.com/apache/hive)** [![Stars](https://img.shields.io/github/stars/apache/hive?style=social&color=white)](https://github.com/apache/hive/stargazers)  
+   Foundational distributed data warehouse software built on Hadoop. Provided the original Hive Metastore (HMS) metadata abstraction standard that underpins modern data lake table catalogs worldwide.
 
+10. **[Apache Calcite](https://github.com/apache/calcite)** [![Stars](https://img.shields.io/github/stars/apache/calcite?style=social&color=white)](https://github.com/apache/calcite/stargazers)  
+    Dynamic data management and SQL query optimization framework. Powers SQL parsing, planning, validation, and cost-based optimization across leading engines like Drill, Hive, BlazingSQL, and Flink.
 
+11. **[Apache Kyuubi](https://github.com/apache/kyuubi)** [![Stars](https://img.shields.io/github/stars/apache/kyuubi?style=social&color=white)](https://github.com/apache/kyuubi/stargazers)  
+    Distributed multi-tenant gateway for enterprise data lake query engines (Spark SQL, Trino, Flink). Provides standard JDBC/ODBC endpoints, authentication, queuing, and cluster isolation.
 
-- **[DuckDB](https://github.com/duckdb/duckdb)**  
+12. **[Apache Drill](https://github.com/apache/drill)** [![Stars](https://img.shields.io/github/stars/apache/drill?style=social&color=white)](https://github.com/apache/drill/stargazers)  
+    Schema-free SQL query engine designed for agile exploration of unstructured and semi-structured big data across NoSQL databases, file systems, and cloud object storage without schema definitions.
 
-  In-process analytical SQL database optimized for local and embedded analytics. Extremely fast for querying Parquet, Iceberg, and other lake formats on a single machine.
+13. **[Dremio Community Edition (OSS)](https://github.com/dremio/dremio-oss)** [![Stars](https://img.shields.io/github/stars/dremio/dremio-oss?style=social&color=white)](https://github.com/dremio/dremio-oss/stargazers)  
+    Open-source core of Dremio's SQL lakehouse engine powered by Apache Arrow Flight and Gandiva. Provides lightning-fast BI queries and a unified semantic layer directly over data lake object storage.
 
-
-
-- **[ClickHouse](https://github.com/ClickHouse/ClickHouse)**  
-
-  High-performance open-source columnar OLAP database that can efficiently query data lakes and is widely used for real-time and large-scale analytics.
-
-
-
-- **[Apache Impala](https://github.com/apache/impala)**  
-
-  Native massively parallel processing (MPP) SQL engine designed for high-performance queries on Hadoop and cloud data lakes.
-
-
-
-- **[Apache Hive](https://github.com/apache/hive)**  
-
-  Classic data warehouse infrastructure built on Hadoop. Provides SQL-like querying (HiveQL) and remains foundational in many data lake environments.
-
-
-
-- **[Apache Drill](https://github.com/apache/drill)**  
-
-  Schema-free SQL query engine that can query a wide variety of data sources and formats, including nested data in data lakes.
-
-
-
-- **[StarRocks](https://github.com/StarRocks/starrocks)**  
-
-  High-performance open-source MPP analytical database with strong data lake querying capabilities and real-time analytics features.
-
-
-
-- **[Apache Doris](https://github.com/apache/doris)**  
-
-  Easy-to-use, high-performance, real-time analytical database that supports efficient querying of data lake formats.
-
-
-
-### Additional Strong Open-Source Options
-
-- Federated / interactive SQL: **Trino**, **Presto**.
-
-- Large-scale processing + SQL: **Apache Spark SQL**.
-
-- Lightweight / local analytics: **DuckDB**.
-
-- High-performance OLAP: **ClickHouse**, **StarRocks**, **Apache Doris**, **Apache Impala**.
-
-- Classic lake SQL: **Apache Hive**.
-
-- Supporting technologies: Apache Iceberg, Delta Lake, Apache Hudi (table formats), Kyuubi (Spark SQL gateway).
-
-- Accepting that commercial platforms (Databricks SQL, Snowflake, BigQuery, Athena, Starburst Galaxy, Dremio) still lead in managed infrastructure, governance, performance optimizations (e.g., Photon), and enterprise support.
-
-
-
-**Frameworks for building custom systems**:  
-
-Deploy **Trino** or **Presto** for interactive federated SQL → use **Apache Spark SQL** for heavy batch and ML workloads → add **DuckDB** for local development and lightweight analytics → store data in open formats (**Iceberg**, **Delta Lake**, or **Hudi**) on object storage. Ideal for organizations that want full control, avoid vendor lock-in, and can operate the infrastructure themselves.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Data lake query engines interact with large volumes of potentially sensitive data. Carefully evaluate security, access control, cost management, and operational requirements. Self-hosted open-source engines provide maximum flexibility but require engineering ownership. This list is not architectural or security advice.
-
-
+14. **[Apache Impala](https://github.com/apache/impala)** [![Stars](https://img.shields.io/github/stars/apache/impala?style=social&color=white)](https://github.com/apache/impala/stargazers)  
+    Lightning-fast massively parallel processing (MPP) SQL query engine built natively in C++ for Apache Hadoop and cloud storage, delivering low latency for interactive business intelligence workloads.
 
 ---
 
-**Made for data engineers, analytics engineers, platform teams, and open-source advocates.**
+## 🛠️ Architectural Guidance & Stack Selection
 
+- **Federated / Interactive SQL**: Deploy **Trino** or **Presto** when you need a single ANSI SQL gateway connecting to S3, Snowflake, PostgreSQL, Kafka, and Hive Metastore.
+- **Large-Scale Batch Processing & ETL**: Rely on **Apache Spark SQL** for complex multi-stage batch transforms, data preparation, and distributed ML pipelines.
+- **Embedded & Single-Node Analytics**: Leverage **DuckDB** or **Apache DataFusion** for serverless, local CLI tools, PyData dataframes, and sub-second querying of Parquet files without cluster operational overhead.
+- **Sub-Second OLAP & High-Concurrency BI**: Use **ClickHouse**, **StarRocks**, or **Apache Doris** for low-latency ad-hoc slicing and dicing with pre-aggregated or columnar indexes.
+- **Multi-Engine Gateway & JDBC/ODBC Management**: Implement **Apache Kyuubi** to offer serverless enterprise SQL gateways to end users.
+- **Open Table Formats**: Pair your query engine with open standards like **Apache Iceberg**, **Delta Lake**, or **Apache Hudi** to guarantee ACID transactions, partition evolution, and time-travel querying.
 
+---
 
-Let's keep data lake analytics fast, open, and under your control.
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help us keep this directory comprehensive and up-to-date:
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a feature branch (`git checkout -b add-query-engine`).
+3. ✏️ Add or update entries following the formatting standard (include official documentation, GitHub repo, pricing/stars, and clear architecture details).
+4. 🚀 Submit a Pull Request with a descriptive summary of your changes.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository valuable for your data engineering workflows, research, or architecture design, please consider supporting the project:
+
+- ⭐ **Star this repository** to improve discoverability for other developers.
+- 🍴 **Fork and share** with colleagues and data teams.
+- ☕ **Sponsor or buy a coffee** via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to help sustain maintenance and updates!
+
+---
 
 ## ⭐ Star History
 
-<a href="https://star-history.com/#ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine&Timeline" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Data-Lake-SQL-Query-Engine_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Data-Lake-SQL-Query-Engine_growth.svg">
-  </picture>
-</a>
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine&type=date&legend=top-left)
+
+---
+
+## 📜 Disclaimer
+
+- This is an independent, community-curated list maintained for educational and architectural reference purposes.
+- Product logos, trademarks, and registered marks belong to their respective owners.
+- Data lake query engines interact with large volumes of potentially sensitive production data. Carefully evaluate security, access control, multi-cloud egress costs, and operational overhead before deploying any platform in production.

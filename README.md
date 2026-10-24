@@ -33,76 +33,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global data lake and cloud data warehouse market is estimated at **$30B–$38B in 2024–2025**, expanding at a rapid 17%–25% CAGR driven by AI workloads and open table formats (Apache Iceberg, Delta Lake). The market is **moderately to highly concentrated** at the infrastructure layer—where hyperscalers (AWS, Microsoft, Google Cloud) and unified data platforms (Databricks, Snowflake) capture nearly 70% of enterprise spend—yet maintains a vibrant, fragmented open-source and federated query engine ecosystem (Trino, DuckDB, Presto, Dremio) preventing total lock-in.
 
 ## SaaS/Hosted Platforms
 
-- **[Adobe Experience Platform Query Service](https://business.adobe.com/products/experience-platform/query-service.html)**  
-
-  Serverless SQL interface for querying data stored in Adobe Experience Platform, optimized for customer experience and marketing analytics workloads.
-
-
-
-- **[Databricks SQL](https://www.databricks.com/product/databricks-sql)**  
-
-  High-performance SQL analytics engine on the Databricks Lakehouse Platform with Photon acceleration, Unity Catalog integration, and strong BI connectivity.
-
-
-
-- **[Snowflake](https://www.snowflake.com/)**  
-
-  Cloud data platform with excellent support for querying external data lakes and open table formats (including Iceberg) alongside its managed warehouse.
-
-
-
-- **[Google BigQuery](https://cloud.google.com/bigquery)**  
-
-  Fully serverless, highly scalable data warehouse with BigLake and external table capabilities for querying data lakes on Google Cloud Storage.
-
-
-
-- **[Amazon Athena](https://aws.amazon.com/athena/)**  
-
-  Serverless interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL, with native support for Iceberg, Delta, and Hudi.
-
-
-
-- **[Starburst Galaxy](https://www.starburst.io/platform/starburst-galaxy/)**  
-
-  Fully managed Trino service offering fast, federated SQL across data lakes, warehouses, and operational databases with enterprise governance.
-
-
-
-- **[Dremio Cloud](https://www.dremio.com/)**  
-
-  Lakehouse platform focused on self-service SQL analytics, semantic layers, and high-performance querying of data lakes and open formats.
-
-
-
-- **[AWS Redshift Spectrum](https://aws.amazon.com/redshift/spectrum/)**  
-
-  Extension of Amazon Redshift that allows querying exabytes of data in S3 without loading it into Redshift clusters.
-
-
-
-- **[Cloudera Data Warehouse](https://www.cloudera.com/products/data-warehouse.html)**  
-
-  Enterprise data warehouse solution with Impala and Hive engines optimized for hybrid and multi-cloud data lake analytics.
-
-
-
-- **[Microsoft Fabric / Synapse SQL](https://www.microsoft.com/en-us/microsoft-fabric)**  
-
-  Unified analytics platform with serverless and dedicated SQL endpoints for querying lakehouse data stored in OneLake.
-
+| Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Free Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Fabric / Synapse SQL](https://www.microsoft.com/en-us/microsoft-fabric)** | Microsoft: ~$3.1T Market Cap / ~$245B Ann. Rev. | Starts at ~$0.36/hour (Pay-As-You-Go F2 Capacity SKU with 2 CUs; ~$0.18/CU-hour) | **60-day free trial** with F64 capacity equivalence, 1 TB OneLake storage, subject to standard 24h capacity smoothing/throttling | Unified analytics platform with serverless and dedicated SQL endpoints for querying lakehouse data stored in OneLake. |
+| **[Google BigQuery](https://cloud.google.com/bigquery)** | Alphabet: ~$2.1T Market Cap / ~$350B Ann. Rev. | Starts at $6.25 per TB scanned (On-Demand) or compute capacity editions from ~$0.04/slot-hour | **Free tier forever**: 1 TB of query data scanned per month and 10 GB of active storage free; plus $300 credit 90-day GCP trial | Fully serverless, highly scalable data warehouse with BigLake and external table capabilities for querying data lakes on Google Cloud Storage. |
+| **[Amazon Athena](https://aws.amazon.com/athena/)** | Amazon / AWS: ~$1.9T Market Cap / ~$105B+ AWS Rev. | Starts at $5.00 per TB of data scanned (serverless per-query model) | **Free tier (AWS Free Tier)**: 1 TB of queries scanned per month for the first 12 months for new AWS accounts | Serverless interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL, with native support for Iceberg, Delta, and Hudi. |
+| **[AWS Redshift Spectrum](https://aws.amazon.com/redshift/spectrum/)** | Amazon / AWS: ~$1.9T Market Cap / ~$105B+ AWS Rev. | Starts at $5.00 per TB of data scanned from S3 (plus underlying Redshift cluster costs from ~$0.25/hour for dc2.large) | **Free trial**: 2-month free trial of DC2.large node (750 free hours/month) for eligible Redshift accounts; Spectrum queries billed at $5/TB scanned | Extension of Amazon Redshift that allows querying exabytes of data in S3 without loading it into Redshift clusters. |
+| **[Adobe Experience Platform Query Service](https://business.adobe.com/products/experience-platform/query-service.html)** | Adobe: ~$200B Market Cap / ~$21B Ann. Rev. | Enterprise subscription packaging (Data Distiller add-on packaging begins at ~$50,000/year contract tier) | **Proof-of-concept (PoC) only**: No self-service trial; sales-assisted evaluation sandboxes provided under 30-to-60 day evaluation agreements | Serverless SQL interface for querying data stored in Adobe Experience Platform, optimized for customer experience and marketing analytics workloads. |
+| **[Snowflake](https://www.snowflake.com/)** | ~$45B Market Cap / ~$3.6B Ann. Rev. | Starts at $2.00 per Snowflake Credit (Standard Edition pay-as-you-go, compute billed per second) | **30-day free trial** with $400 worth of free usage credits across standard compute warehouses | Cloud data platform with excellent support for querying external data lakes and open table formats (including Iceberg) alongside its managed warehouse. |
+| **[Databricks SQL](https://www.databricks.com/product/databricks-sql)** | ~$43B Private Valuation / ~$2.4B Ann. Rev. | Starts at $0.22 per DBU (Databricks Unit) on Serverless SQL Starter / $0.07 per DBU for standard jobs | **14-day free trial** with full access to Databricks platform features (cloud provider infrastructure fees apply) | High-performance SQL analytics engine on the Databricks Lakehouse Platform with Photon acceleration, Unity Catalog integration, and strong BI connectivity. |
+| **[Cloudera Data Warehouse](https://www.cloudera.com/products/data-warehouse.html)** | ~$5.3B PE Acquisition (CD&R / KKR) / ~$1B+ Rev. | Starts at $0.07 per CCU-hour (Cloudera Compute Unit, metered per minute, plus cloud IaaS costs) | **60-day trial**: Evaluation credits available via Cloudera Public Cloud sales-assisted trial; 60-day private cloud data services trial | Enterprise data warehouse solution with Impala and Hive engines optimized for hybrid and multi-cloud data lake analytics. |
+| **[Starburst Galaxy](https://www.starburst.io/platform/starburst-galaxy/)** | ~$3.35B Private Valuation / ~$100M+ ARR | Starts at $0.50 per Starburst credit (Pro Tier); Enterprise starting at $0.75 per credit | **Free tier forever** limited to up to 3 active free clusters; also includes **30-day Enterprise trial with $500 in compute credits** | Fully managed Trino service offering fast, federated SQL across data lakes, warehouses, and operational databases with enterprise governance. |
+| **[Dremio Cloud](https://www.dremio.com/)** | ~$2.0B Private Valuation / ~$50M+ ARR | Starts at $0.20 per DCU (Dremio Compute Unit) running pay-as-you-go | **Free tier forever (Standard Edition)**: Up to 10 users, Small engine capacity limit, and ~200 cataloged tables; self-hosted community edition free | Lakehouse platform focused on self-service SQL analytics, semantic layers, and high-performance querying of data lakes and open formats. |
 
 
 ## Open-Source GitHub Projects

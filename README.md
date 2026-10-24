@@ -222,3 +222,12 @@ Star the repo if you find it useful!
 
 
 Let's keep data lake analytics fast, open, and under your control.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Data-Lake-SQL-Query-Engine&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Data-Lake-SQL-Query-Engine_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Data-Lake-SQL-Query-Engine_growth.svg">
+  </picture>
+</a>
